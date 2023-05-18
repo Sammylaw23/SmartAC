@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32611.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{216C53C7-BA08-4F2A-BE48-578E5FA4C0B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theoremone.SmartAc", "src\Theoremone.SmartAc\Theoremone.SmartAc.csproj", "{2EDA7B51-0926-4AFB-92AB-1947DC929CCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theoremone.SmartAc.Application", "src\Theoremone.SmartAc.Application\Theoremone.SmartAc.Application.csproj", "{B52A91A5-E8A5-4977-BB13-4EF544F425B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{72C5F573-9727-4783-96BB-8BF053D6A142}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Theoremone.SmartAc.Test", "tests\Theoremone.SmartAc.Test\Theoremone.SmartAc.Test.csproj", "{2D6D63AB-4980-4D40-89E2-3BD9823B7532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theoremone.SmartAc.Domain", "src\Theoremone.SmartAc.Domain\Theoremone.SmartAc.Domain.csproj", "{93964CC4-B723-47CF-85E0-2D9FA3096A7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theoremone.SmartAc.Infrastructure", "src\Theoremone.SmartAc.Infrastructure\Theoremone.SmartAc.Infrastructure.csproj", "{5F405F33-C39A-4986-8212-03E2D791CB51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EDA7B51-0926-4AFB-92AB-1947DC929CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EDA7B51-0926-4AFB-92AB-1947DC929CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EDA7B51-0926-4AFB-92AB-1947DC929CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EDA7B51-0926-4AFB-92AB-1947DC929CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52A91A5-E8A5-4977-BB13-4EF544F425B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52A91A5-E8A5-4977-BB13-4EF544F425B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52A91A5-E8A5-4977-BB13-4EF544F425B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52A91A5-E8A5-4977-BB13-4EF544F425B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D6D63AB-4980-4D40-89E2-3BD9823B7532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6D63AB-4980-4D40-89E2-3BD9823B7532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6D63AB-4980-4D40-89E2-3BD9823B7532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6D63AB-4980-4D40-89E2-3BD9823B7532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93964CC4-B723-47CF-85E0-2D9FA3096A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93964CC4-B723-47CF-85E0-2D9FA3096A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93964CC4-B723-47CF-85E0-2D9FA3096A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93964CC4-B723-47CF-85E0-2D9FA3096A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F405F33-C39A-4986-8212-03E2D791CB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F405F33-C39A-4986-8212-03E2D791CB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F405F33-C39A-4986-8212-03E2D791CB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F405F33-C39A-4986-8212-03E2D791CB51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EDA7B51-0926-4AFB-92AB-1947DC929CCA} = {216C53C7-BA08-4F2A-BE48-578E5FA4C0B5}
+		{B52A91A5-E8A5-4977-BB13-4EF544F425B6} = {216C53C7-BA08-4F2A-BE48-578E5FA4C0B5}
+		{2D6D63AB-4980-4D40-89E2-3BD9823B7532} = {72C5F573-9727-4783-96BB-8BF053D6A142}
+		{93964CC4-B723-47CF-85E0-2D9FA3096A7A} = {216C53C7-BA08-4F2A-BE48-578E5FA4C0B5}
+		{5F405F33-C39A-4986-8212-03E2D791CB51} = {216C53C7-BA08-4F2A-BE48-578E5FA4C0B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ABAF8D6A-589E-402E-AD58-AED21A5AF15D}
+	EndGlobalSection
+EndGlobal
